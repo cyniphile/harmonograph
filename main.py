@@ -32,7 +32,7 @@ def draw():
     # AMPLITUDE_Y = 0
     AMPLITUDE_Y = 200
     AMPLITUDE_Z = 200
-    PHASE_XY = 0
+    PHASE_XY = np.pi / 4
     PHASE_Z = 0
     PERIOD_X = 1.0
     PERIOD_Y = .99
@@ -73,7 +73,7 @@ def draw():
             new_point[0] += z_rotated[0]
             new_point[1] += z_rotated[1]
             points.append(new_point)
-            print(new_point)
+            # print(new_point)
         speed_offset += SPEED * 20
         pygame.display.flip()
         clock.tick(20 * SPEED)
