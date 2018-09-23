@@ -28,16 +28,16 @@ def draw():
     # Loop until the user clicks the close button.
     done = False
 
-    AMPLITUDE_X = 200
-    AMPLITUDE_Y = 200
-    AMPLITUDE_Z = 200
+    AMPLITUDE_X = 500
+    AMPLITUDE_Y = 100
+    AMPLITUDE_Z = 100
     PHASE_XY = 1
     PHASE_Z = 3
     PERIOD_X = 1.01
     PERIOD_Y = 1
-    PERIOD_Z = .99
-    DECAY = 0.001
-    ANGLE_Z = 45  # angle of vibration. 0 == X axis
+    PERIOD_Z = .90
+    DECAY = 0.05
+    ANGLE_Z = 90  # angle of vibration. 0 == X axis
 
     SPEED = 4
 
