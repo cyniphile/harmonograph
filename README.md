@@ -1,4 +1,4 @@
-Generative Art lines
+Generative Art Lines
 
 ![example drawing](https://github.com/cyniphile/harmonograph/blob/master/example.png)
 
