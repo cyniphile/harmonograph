@@ -28,16 +28,17 @@ def draw():
     # Loop until the user clicks the close button.
     done = False
 
-    AMPLITUDE_X = 500
-    AMPLITUDE_Y = 100
-    AMPLITUDE_Z = 100
-    PHASE_XY = 1
-    PHASE_Z = 3
-    PERIOD_X = 1.01
-    PERIOD_Y = 1
-    PERIOD_Z = .90
-    DECAY = 0.05
-    ANGLE_Z = 90  # angle of vibration. 0 == X axis
+    AMPLITUDE_X = 200
+    # AMPLITUDE_Y = 0
+    AMPLITUDE_Y = 200
+    AMPLITUDE_Z = 200
+    PHASE_XY = 0
+    PHASE_Z = 0
+    PERIOD_X = 1.0
+    PERIOD_Y = .99
+    PERIOD_Z = 1.01
+    DECAY = 0.0
+    ANGLE_Z = 45  # angle of vibration. 0 == X axis
 
     SPEED = 4
 
@@ -72,7 +73,7 @@ def draw():
             new_point[0] += z_rotated[0]
             new_point[1] += z_rotated[1]
             points.append(new_point)
-            # print(new_point)
+            print(new_point)
         speed_offset += SPEED * 20
         pygame.display.flip()
         clock.tick(20 * SPEED)

@@ -1,4 +1,5 @@
 Art lines
+![example drawing](https://github.com/cyniphile/harmonograh/example.png)
 
 todo:
 - add optional decay constraints e.g. |decay| less than  1
