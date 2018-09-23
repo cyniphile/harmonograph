@@ -1,4 +1,5 @@
-Art lines
+Generative Art lines
+
 ![example drawing](https://github.com/cyniphile/harmonograph/blob/master/example.png)
 
 todo:
